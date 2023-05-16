@@ -2,12 +2,12 @@ import java.util.* ;
 public class FindSecondLargest {
 public static void  printArray(int[] arr,int n)
 {
-	System.out.print("Sorted array is : ");
+	// System.out.print("Sorted array is : ");
 	for(int i = 0;i<n;++i)
 	{
 		System.out.print(arr[i]+" ");
 	}
-	System.out.println();
+	// System.out.println();
 }
 
 public static int[] sortArray(int[] arr,int n)
